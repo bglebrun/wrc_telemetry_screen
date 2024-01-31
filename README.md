@@ -1,3 +1,10 @@
+# todo
+- Review documentation for the [EA WRC Telemetry hook](https://answers.ea.com/t5/Guides-Documentation/EA-SPORTS-WRC-How-to-use-User-Datagram-Protocol-UDP-on-PC/m-p/13178407/thread-id/1), consider a focus towards user customizable views
+- We want to consider rendering this to a web socket updated window, as we build this out should also consider overhead for >60Hz rendering, as the game will update UDP on a per-frame basis
+
+### Thanks to [srid/rust-nix-template](https://srid.ca/rust-nix)
+
+
 # dioxus-desktop-template
 
 A starter template for [Dioxus](https://dioxuslabs.com/) Desktop apps w/ Tailwind & Nix
